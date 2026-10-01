@@ -25,7 +25,7 @@ set /p opcion=Seleccione una opci¢n (1-4):
 :: Evaluar la opci¢n seleccionada
 if "%opcion%"=="1" (
     :: Opci¢n 1: Saludo chorra
-    echo Hola pringaos!!
+    echo Hola, pringaos!!
     endlocal & exit /B 0
 )
 if "%opcion%"=="2" (
